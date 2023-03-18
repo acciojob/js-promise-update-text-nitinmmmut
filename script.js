@@ -7,5 +7,5 @@ function Hello(){
 	});
 }
 Hello().then(data=>{
-	document.getElementById("document").textContent=data;
+	document.getElementById("output").textContent=data;
 });
